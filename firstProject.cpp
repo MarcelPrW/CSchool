@@ -1,15 +1,18 @@
 #include <iostream>
-#include <cdstio>
+#include <cstdio>
 
 using namespace std;
 
 int liczba1, liczba2, wynik;
+
 int main() {
-    std::cout << "test for string and number 123";
-    std::cout << "test for string and number 123";
-    std::cout << "test for string and number 123";
-    std::cout << "test for string and number 123";
-    std::cout << "test for string and number 123";
-    std::cout << "test for string and number 123";
-    return 0;
+cout << "Podaj 1 liczbę: ";
+cin >> liczba1;
+cout << "Podaj liczbę 2: ";
+cin >> liczba2;
+wynik = liczba1 + liczba2;
+cout << wynik;
+cin.ignore();
+getchar();
+return 0;
 }
